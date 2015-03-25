@@ -17,5 +17,5 @@ user {"puppet-test-1":
 }
 
 exec {'echo':
-  command => 'echo "Run puppet terminé, ou presque\n"',
+  command => '/bin/echo "Run puppet terminé, ou presque\n"',
 }
