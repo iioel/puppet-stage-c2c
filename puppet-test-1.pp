@@ -12,7 +12,6 @@ user {"puppet-test-1":
   ensure => present,
   managehome => true,
   shell => "/dev/null",
-  groups => "puppet-test-1",
 }
 
 exec {'echo':
