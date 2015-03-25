@@ -16,5 +16,5 @@ user {"puppet-test-1":
   groups => "puppet-test-1",
 }
 
-exec {"echo 'Run puppet terminé, ou presque\n'":
+exec {'echo "Run puppet terminé, ou presque\n"':
 }
